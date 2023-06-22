@@ -18,7 +18,8 @@
     "style": "Google",
 
     // If style is set to 'File', but not '.clang-format' file is found, this style
-    // is used instead. Use 'none' to skip formatting in this case.
+    // is used instead. If 'fallback_style' is set to 'none' and no '.clang-format'
+    // file is found, no formatting takes place.
 
     "fallback_style": "Google",
 
